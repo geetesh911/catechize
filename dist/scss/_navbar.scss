@@ -1,0 +1,107 @@
+/* change navbar background */
+.navbar-custom {
+    // background: rgba($background-gradiant, 0.85) !important;
+    background: linear-gradient(180deg,#1b2530 0,rgba(27,37,48,1)) !important;
+    .navbar-brand {
+        outline: none;
+    }
+}    
+    
+/* nav-link formatting */
+.nav-link {
+    color: $navbar-base-color;
+    font-family: $default-font-family;
+    font-weight: 300;
+    text-transform: uppercase;
+    outline: none;
+}
+
+
+/* nav-links hover formatting */
+.nav-item:hover {
+
+    .nav-link:hover {
+
+        color: $primary;
+
+        /* navbar-icon hover effect */
+        i {
+            margin-bottom: 2px;
+        }
+
+    }
+
+} 
+
+/* // change the color of toggle button */
+.navbar-custom {
+    @media screen and (min-width: 992px){
+        border: 1px;
+    }
+    .navbar-toggler {
+
+        /* navbar toggler button active  */
+            outline: none;
+            border: none;
+            padding: 0;
+
+        span {
+            padding: 0;
+            color: rgba($navbar-base-color, 0.7);
+        }
+
+    } 
+}
+
+/* navbar toggle button hover effect */
+.navbar-toggler:hover {
+        span:hover {
+        color: rgba($navbar-base-color , 1);
+    }
+}
+
+/* score area formatting */
+.total-score-menu {
+    .nav-item {
+        color: $navbar-base-color;
+        font-family: $default-font-family;
+        text-transform: uppercase;
+        padding: 0;
+        margin-top: 10px;
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+    /* disabling hover effect of nav-link icon */
+
+        
+    .nav-item:hover {
+        .nav-link:hover {
+            i {
+                margin-bottom: 0px;
+            }
+        } 
+    }
+
+    /* providing margin to nav-link icon  */
+    .nav-item {
+        .nav-link {
+            i {
+                margin-right: 4px;
+            }
+        } 
+    } 
+
+    /* providing margin-top to score area */
+    .total-score-menu {
+        .nav-item {
+            margin-top: 20px;
+        }
+    }
+
+} 

@@ -1,0 +1,63 @@
+//VARIABLES BECAUSE CSS PREPROCESSORS ARE COOL
+$gray: #555;
+$yellow: #f2e968;
+$white: #efefef;
+
+//GET THE GOOGLE FONT SPECIMEN
+@import url(https://fonts.googleapis.com/css?family=Rubik);
+
+
+
+
+
+
+@media (min-width: 0px) {
+    .items {
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    background: transparent;
+    border-radius: 10px;
+}
+
+    @media screen and (min-width: 992px) {
+        .items {
+            padding: 0px;
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .contain {
+            margin-top: 0rem;
+        }
+    }
+
+    .items.active {
+        // background: rgba(255,255,255,0.3);
+        cursor: grabbing;
+        cursor: -webkit-grabbing;
+        // transform: scale(1);
+    }
+
+  .item {
+      text-align: left;
+    display: inline-block;
+    width: 250px;
+    margin: 1rem 2rem 1rem 0rem;
+    @media screen and (max-width: 992px) {
+        margin: 0.2rem 1em;
+        // min-height: 150px;
+        width: 150px;
+        &:first-child {
+            margin: 1rem 1rem 1rem 0rem !important;
+        }
+    }
+  }
+}
+

@@ -1,0 +1,2254 @@
+{
+    "computerScience": [
+        [
+            {
+                "question": "HTML stands for?",
+                "options": [
+                    "Hyper Text Markup Language",
+                    "High Text Markup Language",
+                    "Hyper Tabular Markup Language",
+                    "None of these"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "which of the following tag is used to mark a begining of paragraph ?",
+                "options": [
+                    "&lt;TD&gt;",
+                    "&lt;BR&gt;",
+                    "&lt;P&gt;",
+                    "&lt;TR&gt;"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "From which tag descriptive list starts ?",
+                "options": [
+                    "&lt;LL&gt;",
+                    "&lt;DL&gt;",
+                    "&lt;DD&gt;",
+                    "&lt;DS&gt;"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Correct HTML tag for the largest heading is",
+                "options": [
+                    "&lt;head&gt;",
+                    "&lt;h6&gt;",
+                    "&lt;heading&gt;",
+                    "&lt;h1&gt;"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "The attribute of &lt;form&gt; tag",
+                "options": [
+                    "Method",
+                    "Action",
+                    "Both (a)&(b)",
+                    "None of these"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Markup tags tell the web browser",
+                "options": [
+                    "How to organise the page",
+                    "How to display the page",
+                    "How to display message box on page",
+                    "None of these"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "What are Empty elements and is it valid?",
+                "options": [
+                    "No, there is no such terms as Empty Element",
+                    "Empty elements are element with no data",
+                    "No, it is not valid to use Empty Element",
+                    "None of these"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following attributes of text box control allow to limit the maximum character?",
+                "options": [
+                    "maxlength",
+                    "len",
+                    "size",
+                    "All the above"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Web pages starts with which ofthe following tag?",
+                "options": [
+                    "&lt;Body&gt;",
+                    "&lt;Title&gt;",
+                    "&lt;HTML&gt;",
+                    "&lt;Form&gt;"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "www is based on which model?",
+                "options": [
+                    "Local-server",
+                    "Client-server",
+                    "3-tier",
+                    "None of these"
+                ],
+                "correctAnswer": 2
+            }
+        ],
+        [
+            {
+                "question": "What is the syntax for creating a function in JavaScript named as catechizeFunc?",
+                "options": [
+                    "function = catechizeFunc()",
+                    "function catechizeFunc()",
+                    "function := catechizeFunc()",
+                    "function : catechizeFunc()"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "How is the function called in JavaScript?",
+                "options": [
+                    "call catechizeFunc();",
+                    "call function catechizeFunc();",
+                    "catechizeFunc();",
+                    "function catechizeFunc();"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "How to write an ‘if’ statement for executing some code. -&gt; \"If “i” is NOT equal to 8?\"",
+                "options": [
+                    "if(i&lt;&gt;5)",
+                    "if i&lt;&gt;5",
+                    "if(i!=5)",
+                    "if i!=5"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "What is the correct syntax for adding comments in JavaScript?",
+                "options": [
+                    "&lt;!–This is a comment–&gt",
+                    "//This is a comment",
+                    "–This is a comment",
+                    "**This is a comment**"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "What is the JavaScript syntax for printing values in Console?",
+                "options": [
+                    "console.log(5);",
+                    "print(5)",
+                    "console.print(5);",
+                    "print.console(5);"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "How to initialize an array in JavaScript?",
+                "options": [
+                    "var catechize= “catechize1”, “catechize2”, “catechize3”",
+                    "var catechize=(1:catechize1, 2:catechize2, 3:catechize3)",
+                    "var catechize=(1=catechize1, 2=catechize2, 3=catechize3)",
+                    "var catechize=[“catechize1”, “catechize2”, “catechize3”]"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "What will be the command to print the number of characters in the string “catechize”?",
+                "options": [
+                    "document.write(“catechize”.len);",
+                    "document.write(sizeof(“catechize”));",
+                    "document.write(“catechize”.length);",
+                    "document.write(lenof(“catechize”));"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "What is the method in JavaScript used to remove the whitespace at the beginning and end of any string ?",
+                "options": [
+                    "strip()",
+                    "trim()",
+                    "stripped()",
+                    "trimmed()"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "In JavaScript, we do not have datatypes like integer and float. What is the function that can be used to check if the number is an integer or not?",
+                "options": [
+                    "Integer(value)",
+                    "ifInteger(value)",
+                    "ifinteger(value)",
+                    "isInteger(value)"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which function of an Array object calls a function for each element in the array?",
+                "options": [
+                    "forEach()",
+                    "every()",
+                    "forEvery()",
+                    "each()"
+                ],
+                "correctAnswer": 1
+            }
+        ],
+        [
+            {
+                "question": "Which of the following is a contextual keyword in C#?",
+                "options": [
+                    "get",
+                    "set",
+                    "add",
+                    "All the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following defines unboxing correctly?",
+                "options": [
+                    "When a value type is converted to object type, it is called unboxing.",
+                    "When an object type is converted to a value type, it is called unboxing.",
+                    "Both of the above.",
+                    "None of the above."
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following converts a type to a small floating point number in C#?",
+                "options": [
+                    "ToInt64",
+                    "ToSbyte",
+                    "ToSingle",
+                    "ToInt32"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of the following operator returns the type of a class in C#?",
+                "options": [
+                    "sizeof",
+                    "typeof",
+                    "&&lt;/a&gt;",
+                    "*"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following access specifier in C# allows a class to hide its member variables and member functions from other functions and objects?",
+                "options": [
+                    "Public",
+                    "Private",
+                    "Protected",
+                    "Internal"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following property of Array class in C# checks whether the Array is readonly?",
+                "options": [
+                    "IsFixedSize",
+                    "IsReadOnly",
+                    "Length",
+                    "None of the above"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following is true about C# structures vs C# classes?",
+                "options": [
+                    "Classes are reference types and structs are value types.",
+                    "Structures do not support inheritance.",
+                    "Structures cannot have default constructor",
+                    "All of the above."
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following is the correct about interfaces in C#?",
+                "options": [
+                    "Interfaces are declared using the interface keyword.",
+                    "Interface methods are public by default.",
+                    "Both of the above",
+                    "None of the above"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of the following preprocessor directive lets you modify the compiler's line number and (optionally) the file name output for errors and warnings in C#?  ",
+                "options": [
+                    "elif",
+                    "endif",
+                    "line",
+                    "region"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "The System.SystemException class is the base class for all predefined system exception in C#?",
+                "options": [
+                    "true",
+                    "false",
+                    "",
+                    ""
+                ],
+                "correctAnswer": 1
+            }
+        ],
+        [
+            {
+                "question": "Unchecked exceptions are checked at compile-time rather they are checked at runtime.",
+                "options": [
+                    "True",
+                    "False",
+                    "",
+                    ""
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which method returns the interrupted flag after that it sets the flag to false if it is true?",
+                "options": [
+                    "isInterrupted()",
+                    "static interrupted()",
+                    "non static interrupted()",
+                    "Both A & C"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "The PipedInputStream and PipedOutputStream classes can be used to read and write data simultaneously.",
+                "options": [
+                    "True",
+                    "False",
+                    "",
+                    ""
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "From the following statements which is a disadvantage of an java array?",
+                "options": [
+                    "An array can hold primitive types data",
+                    "An array has its size that is known as array length",
+                    "An array knows only its type that it contains. Array type is checked at the compile-time",
+                    "An array holds only one type of data"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which constructor creates an empty string buffer with the specified capacity as length.",
+                "options": [
+                    "StringBuffer()",
+                    "StringBuffer(String str)",
+                    "StringBuffer(int capacity)",
+                    "None of the above"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "How many reserved keywords are currently defined in the Java language?",
+                "options": [
+                    "48",
+                    "49",
+                    "50",
+                    "47"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which mechanism is used when a thread is paused running in its critical section and another thread is allowed to enter (or lock) in the same critical section to be executed?",
+                "options": [
+                    "Inter-thread communication",
+                    "Initial-thread communication",
+                    "Mutual Exclusive",
+                    "None of the above"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which method is used to change the name of a thread?",
+                "options": [
+                    "public String getName()",
+                    "public void setName(String name)",
+                    "public void getName()",
+                    "public String setName(String name)"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which class is used to uncompress the file in the deflate compression format, It provides facility to the other uncompression filters?",
+                "options": [
+                    "DeflaterOutputStream class",
+                    "InflaterInputStream class",
+                    "Both A & B",
+                    "None of the above"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which is used for reading streams of raw bytes such as image data and for reading streams of characters, consider using FileReader?",
+                "options": [
+                    "FileInputStream",
+                    "FileOutputStream",
+                    "Both A & B",
+                    "None of the above"
+                ],
+                "correctAnswer": 1
+            }
+        ],
+        [
+            {
+                "question": "Which of the following keyword is a valid placeholder for body of the function ?",
+                "options": [
+                    "break",
+                    "continue",
+                    "body",
+                    "pass"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Who created python ?",
+                "options": [
+                    "Guido Van Rossum",
+                    "James Gosling",
+                    "Denis Ritchie",
+                    "Tom Cruise"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Is python compiled language ?",
+                "options": [
+                    "True",
+                    "False",
+                    "",
+                    ""
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Out if list and tuples which are mutable ?",
+                "options": [
+                    "tuples",
+                    "list",
+                    "both are mutable",
+                    "none are mutable"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "What is the name of data type for character in python ?",
+                "options": [
+                    "chr",
+                    "char",
+                    "character",
+                    "python do not have any data type for characters they are treated as string."
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "In python which is the correct method to load a module ?",
+                "options": [
+                    "import math",
+                    "include math",
+                    "#include&lt;math.h&gt;",
+                    "using math"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "In python which keyword is used to start function ?",
+                "options": [
+                    "function",
+                    "def",
+                    "try",
+                    "import"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which function is used to open the file for reading in python ?",
+                "options": [
+                    "fopen(filename, mode)",
+                    "open(filename, mode)",
+                    "openfile(filename, mode)",
+                    "open_file(filename, mode)"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "In python 3 what does // operator do ?",
+                "options": [
+                    "Integer division",
+                    "Float division",
+                    "returns remainder",
+                    "same as a**b"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Let a = [ 1,2,3,4,5 ] then which of the following is correct ?",
+                "options": [
+                    "print(a[:]) =&gt; [1,2,3,4]",
+                    "print(a[0:]) =&gt; [2,3,4,5]",
+                    "print(a[:100]) =&gt; [1,2,3,4,5]",
+                    "print(a[-1:]) =&gt; [1,2]"
+                ],
+                "correctAnswer": 3
+            }
+        ]
+    ],
+    "generalKnowledge": [
+        [
+            {
+                "question": "In how many ways the letter ‘SOLVING’ can be rearranged to make 7 letter words such that none of the letters repeat?",
+                "options": [
+                    "49",
+                    "None Of the Above",
+                    "5040",
+                    "7c7"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "What is the missing letter in this series? 'b  e  h  k  n  ?  t'",
+                "options": [
+                    "q",
+                    "r",
+                    "s",
+                    "u"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "The average age of a group of 5 students was 10. The average age increased by 4 years when 2 new students joined the group. What is the average age of the two new students who joined the group?",
+                "options": [
+                    "15",
+                    "20",
+                    "22",
+                    "24"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "A number increases from 20 to 30 and then decreases from 30 to 20. Compare the percent of increase from 20 to 30 and that of the decrease from 30 to 20. From the following which of the following statement is true:",
+                "options": [
+                    "Percent decrease is less than the percent increase",
+                    "Percent decrease is more than the percent increase",
+                    "Percent increase is less than the percent increase",
+                    "None of the above"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "If you unscramble the letters YKANE, you will get the name of a:",
+                "options": [
+                    "Mountain pass",
+                    "Warrior",
+                    "Flower",
+                    "Country"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "3 is 80% of what number?",
+                "options": [
+                    "2.50",
+                    "3.00",
+                    "3.75",
+                    "3.50"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "There are twenty four students in a certain class. For every nine girls there are three boys. How many girls and how many boys are there in the class?",
+                "options": [
+                    "19 and 5",
+                    "18 and 6",
+                    "15 and 9",
+                    "14 and 10"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "If Simran’s job is to recruit, develop and manage staff in her organization, which among the following is her designation?",
+                "options": [
+                    "Personal Manager",
+                    "Personnal Manager",
+                    "Personnel Manager",
+                    "Personality Manager"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Five teams from Delhi’s Schools are participating in a Summer School Football League. If each team plays the other teams 2 times, the total number of games the League will play is",
+                "options": [
+                    "10",
+                    "20",
+                    "30",
+                    "40"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "In an equation, √96 ÷ √k = 2√6; what value of k will satisfy the equation?",
+                "options": [
+                    "2",
+                    "4",
+                    "6",
+                    "8"
+                ],
+                "correctAnswer": 2
+            }
+        ],
+        [
+            {
+                "question": "1st October is celebrated as",
+                "options": [
+                    "International Day of Older Persons",
+                    "International Coffee Day",
+                    "World Vegetarian Day",
+                    "All the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "International Day of Non-Violence is celebrated on which date?",
+                "options": [
+                    "2nd October",
+                    "5 October",
+                    "9 October",
+                    "14 October"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "5 October is celebrated as:",
+                "options": [
+                    "Indian Air Force day",
+                    "World Postal Day",
+                    "World Teacher's Day",
+                    "None of the above"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "World Animal Welfare Day is celebrated on:",
+                "options": [
+                    "4 October",
+                    "5 October",
+                    "6 October",
+                    "7 October"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "World Federation for Mental Health organised World Mental Health Day on:",
+                "options": [
+                    "8 October",
+                    "9 October",
+                    "10 October",
+                    "11 October"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "\"Girl Force: Unscripted and unstoppable\" is a theme of which Important Day?",
+                "options": [
+                    "World Mental Health Day",
+                    "World Teacher's Day",
+                    "International Girl Child Day",
+                    "None of the above"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "World Thrift Day in India is celebrated on:",
+                "options": [
+                    "22 October",
+                    "24 October",
+                    "26 October",
+                    "30 October"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "31 October is observed as:",
+                "options": [
+                    "World Development Information Day",
+                    "United Nations Day",
+                    "National Unity Day",
+                    "None of the above"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "14 October is celebrated as:",
+                "options": [
+                    "World Calamity Day",
+                    "World Standards Day",
+                    "Natural Disaster Reduction Day",
+                    "German-American Day"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "In which year Indian Air Force Day was established?",
+                "options": [
+                    "1929",
+                    "1930",
+                    "1931",
+                    "1932"
+                ],
+                "correctAnswer": 4
+            }
+        ],
+        [
+            {
+                "question": "Which Indian State/States share boundaries with Pakistan?",
+                "options": [
+                    "Jammu and Kashmir",
+                    "Rajasthan",
+                    "Gujarat",
+                    "All the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "India and Pakistan border is also known as .......",
+                "options": [
+                    "Zero point border",
+                    "International Border",
+                    "Coastal Border",
+                    "None of the above"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "What is the total length of India-Pakistan border?",
+                "options": [
+                    "3000 km",
+                    "3120 Km",
+                    "3223 Km",
+                    "3323 Km"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "What is the length of Jammu and Kashmir border shares with Pakistan?",
+                "options": [
+                    "1222 Km",
+                    "1234 Km",
+                    "1239 Km",
+                    "1240 Km"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "What is the length of the border of Rajasthan shares with Pakistan?",
+                "options": [
+                    "1100 Km",
+                    "1120 Km",
+                    "1160 Km",
+                    "1170 Km"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "When borders of Pakistan were drawn?",
+                "options": [
+                    "14 August, 1947",
+                    "15 August, 1947",
+                    "16 August, 1947",
+                    "17 August, 1947"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "The first capital of independent Pakistan was.....",
+                "options": [
+                    "Karachi",
+                    "Faisalabad",
+                    "Islamabad",
+                    "Lahore"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Who drew up the borders for newly independent Pakistan?",
+                "options": [
+                    "Lord Mountbatten",
+                    "Sir Cyril Radcliffe",
+                    "Clement Atlee",
+                    "None of the above"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which state of India share border of length 425 km with Pakistan?",
+                "options": [
+                    "Gujarat",
+                    "Rajasthan",
+                    "Punjab",
+                    "Jammu and Kashmir"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which state of India share longest border with Pakistan?",
+                "options": [
+                    "Jammu and Kashmir",
+                    "Rajasthan",
+                    "Gujarat",
+                    "Punjab"
+                ],
+                "correctAnswer": 1
+            }
+        ],
+        [
+            {
+                "question": "“Parliamentary Government” is also known as....",
+                "options": [
+                    "Cabinet Government",
+                    "Responsible Government",
+                    "Westminster forms of government",
+                    "All of the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following characteristics is not related to Parliamentary Government?",
+                "options": [
+                    "Single Executive",
+                    "Collective liability",
+                    "Leadership of the Prime Minister",
+                    "Resolution of lower house"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which of the following is not the merit of the Presidential System?",
+                "options": [
+                    "Permanent Government",
+                    "Confirmation in policies",
+                    "Limited Representation",
+                    "Government by experts"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of the following is a demerit of the Parliamentary System?",
+                "options": [
+                    "Compressed representation",
+                    "Uncertainty of policies",
+                    "Temporary Government",
+                    "All of the above"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "The Indian Constitution has borrowed the ideas of preamble from the",
+                "options": [
+                    "Italian Constitution",
+                    "Canadian Constitution",
+                    "French Constitution",
+                    "Constitution of USA"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following characteristics is not related to the Presidential System?",
+                "options": [
+                    "Governance of the Prime Minister",
+                    "Single Executive",
+                    "Single Membership",
+                    "Dissolution of lower house is baned"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which of the following characteristics is not related to the federal government?",
+                "options": [
+                    "Written Constitution",
+                    "Flexible Constitution",
+                    "Supremacy of the Constitution",
+                    "Independent Judiciary"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "The Lok Sabha is also known as",
+                "options": [
+                    "Council of states",
+                    "The Upper House",
+                    "The House of the People",
+                    "Parliament"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "The Federal System in India is based on the model of which country?",
+                "options": [
+                    "Canada",
+                    "UK",
+                    "America",
+                    "Japan"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "The design of the national flag was adopted by the constituent assembly of india in",
+                "options": [
+                    "july, 1948",
+                    "july, 1950",
+                    "july, 1947",
+                    "august, 1947"
+                ],
+                "correctAnswer": 3
+            }
+        ],
+        [
+            {
+                "question": "The executive power of the Union is vested in which one of the below?",
+                "options": [
+                    "Prime minister",
+                    "Home minister",
+                    "Vice-president",
+                    "President"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which one of the following article deals with the pardoning power of the President?",
+                "options": [
+                    "Article 71",
+                    "Article 74",
+                    "Article 72",
+                    "Article 75"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "The impeachment of the President is carried by which one of the following?",
+                "options": [
+                    "Attorney general",
+                    "Members of the legislative",
+                    "Parliament",
+                    "Prime minister"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which one of the following article deals with the tenure of the President?",
+                "options": [
+                    "Article 53",
+                    "Article 56",
+                    "Article 55",
+                    "Article 52"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following article deals with the impeachment of the President?",
+                "options": [
+                    "Article 65",
+                    "Article 62",
+                    "Article 64",
+                    "Article 61"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "The Pressure groups are:",
+                "options": [
+                    "Organisations of universal character",
+                    "Economic organisation",
+                    "Moral organisations",
+                    "Political organisations"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "The Pressure Group tries to promote the interests of their members by exerting pressure on:",
+                "options": [
+                    "Executive",
+                    "Judiciary",
+                    "Legislative",
+                    "All the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following are known as Pressure Groups?",
+                "options": [
+                    "Trade unions",
+                    "Caste groups",
+                    "Tribal organisations",
+                    "All the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "which of the following is not a feature of pressure group?",
+                "options": [
+                    "It tries to influence from outside",
+                    "Its membership is large",
+                    "It actively joins political parties",
+                    "Its members can join any number of groups"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of the following is not a method used by the pressure group for achieving its objectives?",
+                "options": [
+                    "It finances political parties",
+                    "It clearly aligns with a political party",
+                    "It organises demonstrations",
+                    "It tries to influence policy makers"
+                ],
+                "correctAnswer": 2
+            }
+        ],
+        [
+            {
+                "question": "Which of the following rivers does not flow into the Arabian Sea?",
+                "options": [
+                    "Tungabhadra",
+                    "Sabarmati",
+                    "Mandovi",
+                    "Narmada"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which of the following is the highest peak of Satpura Range?",
+                "options": [
+                    "Gurushikharq",
+                    "Dhupgarh",
+                    "Pachmarhi",
+                    "Mahendragiri"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "The Thummalapalle mine which is considered to have one of the world’s largest reserves of 1.50 lakh tonnes of uranium is located in which among the following Indian States",
+                "options": [
+                    "Karnataka",
+                    "Andhra Pradesh",
+                    "Tamil Nadu",
+                    "Kerala"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Tropic of Cancer passes through which of the following group of Indian States:",
+                "options": [
+                    "Gujarat, MP, Chattisgarh, Manipur",
+                    "Rajasthan, Jharkhand, West Bengal, Mizoram",
+                    "UP, MP, Bihar, Jharkhand",
+                    "Maharashtra, Chattisgarh, Orissa, Andhra Pradesh"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "The land frontier of India is about 15200 KM. Which of the following countries shares the largest border length with India:",
+                "options": [
+                    "Bangladesh",
+                    "Pakistan",
+                    "China",
+                    "Nepal"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "The lacustrine deposits of Kashmir called ‘Karewas’ are known for :",
+                "options": [
+                    "Terrace farming",
+                    "Apple Orchards",
+                    "Saffron Cultivation",
+                    "Jhum Cultivation"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of the following Mountain passes forms the ‘tri-junction’ of India,China and Myanmar?",
+                "options": [
+                    "Nathu La",
+                    "Jelep La",
+                    "Bomdi La",
+                    "Diphu"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following mountain ranges form a dividing line between the Ganges Plain and the Deccan Plateau?",
+                "options": [
+                    "Aravalli",
+                    "Vindhya",
+                    "Satpura",
+                    "Ajanta"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "The famous hill-station ‘Kodaikanal’ lies in :",
+                "options": [
+                    "1Nilgiri hills0",
+                    "Palani hills",
+                    "Cardamom hills",
+                    "Javadi hills"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "The Andaman and Nicobar Islands are submerged parts of mountain range called:",
+                "options": [
+                    "Arakan Yoma",
+                    "Pegu Yoma",
+                    "Askai Chin",
+                    "Tien Shan"
+                ],
+                "correctAnswer": 1
+            }
+        ],
+        [
+            {
+                "question": "From which source India got concept of Single order of court?",
+                "options": [
+                    "Government of India Act, 1935",
+                    "Government of India Act, 1919",
+                    "Pitts India Act, 1773",
+                    "None of the following"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which of the following statement is not true about India's Supreme Court?",
+                "options": [
+                    "Article 124 to 147 and Part V of the Indian Constitution informs about the composition and powers of the Supreme Court?",
+                    "The Supreme Court was inaugurated on January 28, 1950",
+                    "At present there are 35 judges in the Supreme Court",
+                    "Judges of Supreme Court are appointed by the President of India"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which qualification is wrong for being a judge in the Supreme Court?",
+                "options": [
+                    "It is compulsory to be a citizen of India.",
+                    "He should be a respected jurist in the eyes of Parliament",
+                    "Must be a judge in the High Court for at least 5 years",
+                    "He should be a lawyer in the High Court for at least 10 years"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which statement regarding the tenure of judges of Supreme Court is not correct?",
+                "options": [
+                    "Judge of the Supreme Court can remain in office till the age of 65 years.",
+                    "Judge of the Supreme Court, gives his resignation letter to the Chief Justice",
+                    "On the recommendation of Parliament he can be removed by the President.",
+                    "Supreme Court judge can be removed only in the condition of misconduct."
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Who can remove the Judge of the Supreme Court?",
+                "options": [
+                    "Chief Justice of the Supreme Court",
+                    "Only President",
+                    "Only Parliament",
+                    "Both Parliament and President"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "What is the current salary of Chief Justice of the Supreme Court?",
+                "options": [
+                    "1.10 lakhs Rupees",
+                    "1 lakh Rupees",
+                    "90,000 Rupees",
+                    "1.25 lakhs Rupees"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "The President can declare a judge an executive chief justice of the Supreme Court of India when ...",
+                "options": [
+                    "The post of Chief Justice is vacant",
+                    "Chief Justice is temporarily absent",
+                    "Chief Justice is unable to discharge his obligations",
+                    "All of the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Who among the following has the right to establish the bench of Supreme Court elsewhere in the country?",
+                "options": [
+                    "The Chief Justice of the Supreme Court",
+                    "The President of India",
+                    "The Parliament",
+                    "Chief Justice of the Supreme Court with prior approval of the President."
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following Article talks about the establishment of the Supreme Court?",
+                "options": [
+                    "Article 176",
+                    "Article 124",
+                    "Article 153",
+                    "Article 324"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following is not matched correctly?",
+                "options": [
+                    "Article 145: salary of judges",
+                    "Article 143: Power of President to consult with Supreme Court",
+                    "Article 141: orders of Supreme Court is applicable to all courts of India",
+                    "Article 139: Power of Supreme Court to issue writ petition"
+                ],
+                "correctAnswer": 1
+            }
+        ],
+        [
+            {
+                "question": "What was the role of Tatia Tope in 1857 mutiny?",
+                "options": [
+                    "He was commander-in-chief of the army of Nana Saheb",
+                    "He organized Bhils of Panchamahal region against the British",
+                    "Both A and B",
+                    "Neither A nor B"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Who was the governor-general during the Revolt of 1857?",
+                "options": [
+                    "Lord Canning",
+                    "Lord Irwin",
+                    "Lord Lytton",
+                    "Lord Willington"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Who was the prominent leader in Lucknow during the Revolt of 1857?",
+                "options": [
+                    "Begum Hazrat Mahal",
+                    "Rani Laxmi Bai",
+                    "Kuar Singh",
+                    "Bahadur Shah Zafar"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Sir Huge Rose described whom as ‘the best and bravest military leader of the rebel’?",
+                "options": [
+                    "Begum Hazrat Mahal",
+                    "Rani Laxmi Bai",
+                    "Kuar Singh",
+                    "Bahadur Shah Zafar"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Who is the author of the book”The First Indian War of Independence- 1857-59”?",
+                "options": [
+                    "Karl Marx",
+                    "Syed Ahmad Khan",
+                    "R. C. Mazumdar",
+                    "S. N. Sen"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Consider the following statements related to the cause of  1857  revolt and select the right one.",
+                "options": [
+                    "It was a great disparity in salaries between the Indian and European soldiers.",
+                    "The Indian sepoys were treated with contempt by their European officers.",
+                    "The sepoys were sent to distant parts of the empire, but were not paid any extra allowance.",
+                    "All the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following is one of the social reasons for 1857 revolt?",
+                "options": [
+                    "The English could not establish any social relationship with the Indians.",
+                    "The racial arrogance of the British created a difference between the rulers and the ruled.",
+                    "Both A & B",
+                    "The company’s trade policy destroyed Indian handicrafts."
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of the following leader associated with Barout in Uttar Pradesh during 1857 revolts?",
+                "options": [
+                    "Shah Mal",
+                    "Maulavi Ahamadullah Shah",
+                    "Tatya Tope",
+                    "Veer Kuwar Singh"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Who among the following British Officials suppressed the Revolt of Jhansi?",
+                "options": [
+                    "Colin Campbell",
+                    "Henry Havelock",
+                    "Henry Lawrence",
+                    "Hugh Rose"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Consider the following statement (s) related to the administrative causes of 1857 revolt and select the correct one.",
+                "options": [
+                    "Deprivation of the traditional ruling classes of their luxury due to the establishment of the company's suzerainty over the Indian states;",
+                    "Introduction of new and revenue system which snatched the land from cultivator and gave it to the moneylender or traitor.",
+                    "Lord Canning's announcement to that Mughals would lose the title of King and be mere Princess.",
+                    "None of the above"
+                ],
+                "correctAnswer": 3
+            }
+        ]
+    ],
+    "generalScience": [
+        [
+            {
+                "question": "Which of the following is a large blood vessel that carries blood away from the heart?",
+                "options": [
+                    "Vein",
+                    "Artery",
+                    "Capillary",
+                    "Nerve"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following is not a member of the vitamin B complex?",
+                "options": [
+                    "Thiamine",
+                    "Riboflavin",
+                    "Folic acid",
+                    "Ascorbic acid"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Fungi are plants that lack:",
+                "options": [
+                    "Oxygen",
+                    "Carbon dioxide",
+                    "Chlorophyll",
+                    "None of these"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "What makes a reptile a reptile?",
+                "options": [
+                    "Cold blooded",
+                    "Warm Blooded",
+                    "Non-Hearing",
+                    "Egg-laying"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which blood vessels have the smallest diameter?",
+                "options": [
+                    "Capillaries",
+                    "Arterioles",
+                    "Venules",
+                    "Lymphatic"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which of the following is an air-borne disease?",
+                "options": [
+                    "Measles",
+                    "Typhoid",
+                    "Pink eye",
+                    "None of the above"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "A yellow dust appears on the fingers, whenever we touch the middle of a flower. These tiny yellow grains are one of the most precious substances in nature because they contain the secret of plant life.  What is this dust called?",
+                "options": [
+                    "Pollen",
+                    "Sperm",
+                    "Spore",
+                    "Sporocyst"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which organ of the body produces the fluid known as bile?",
+                "options": [
+                    "Liver",
+                    "Pancreas",
+                    "Gall bladder",
+                    "Kidney"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which of the following hormones is a steroid?",
+                "options": [
+                    "Estrogen",
+                    "Glucagon",
+                    "Insulin",
+                    "Oxytocin"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which one of the following is not a function of the liver?",
+                "options": [
+                    "Regulation of blood sugar",
+                    "Enzyme activation",
+                    "Detoxiation",
+                    "Reproduction"
+                ],
+                "correctAnswer": 4
+            }
+        ],
+        [
+            {
+                "question": "In which form the chemical compound RDX is used?",
+                "options": [
+                    "As an composition",
+                    "As an reactor",
+                    "As an explosive",
+                    "As an nuclear weapon"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "As a vegetable preservative poly______ foam is used.",
+                "options": [
+                    "Uthane",
+                    "Urethanes",
+                    "Urathanes",
+                    "Uriathenes"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Chemistry is a branch of science which can be used for providing the services to mankind. Comment on the statement.",
+                "options": [
+                    "True",
+                    "False",
+                    "May Be",
+                    "Strongly not"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Bio-chemical compounds are used as....",
+                "options": [
+                    "Skin Treatments",
+                    "Food preservatives",
+                    "Cooking Oils",
+                    "All of the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which one is not the form of Biocides?",
+                "options": [
+                    "Bleech",
+                    "Iodine",
+                    "Sugar",
+                    "Salt"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "How biocides work?",
+                "options": [
+                    "Control the multiplication of insects",
+                    "Kill the insects",
+                    "Manage the original form of material",
+                    "Control the bacteria"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "What is Rodenticide?",
+                "options": [
+                    "A medicine to kill worms",
+                    "A medicine to kill animals",
+                    "A pesticide",
+                    "A lubricant"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Most commonly used Rodenticides are _______ in nature.",
+                "options": [
+                    "Anti Coagulant",
+                    "Anti pesticides",
+                    "Anti solvent",
+                    "Non anti coagulant"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which acid is present in lemon?",
+                "options": [
+                    "marlic acid",
+                    "citric acid",
+                    "lactic acid",
+                    "tartaric acid"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "What is NBR?",
+                "options": [
+                    "Normal Acrylonitrile-butadiene rubber",
+                    "Natural Acrylonitrile-butadiene rubber",
+                    "N Acrylonitrile-butane rubber",
+                    "Acrylonitrile-butadiene rubber"
+                ],
+                "correctAnswer": 4
+            }
+        ],
+        [
+            {
+                "question": "What is the full form of ASLV?",
+                "options": [
+                    "Augmented Satellite Launch Vehicle",
+                    "Automatic Satellite Launch Vehicle",
+                    "Aero Space Launch Vehicle",
+                    "Area Satellite Launch Vehicle"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which is India's first experimental satellite launch vehicle?",
+                "options": [
+                    "ASLV",
+                    "GSLV",
+                    "SLV 3",
+                    "None of the above"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which type of fuel is used by GSLV in its operations?",
+                "options": [
+                    "Only solid fuel",
+                    "Only liquid fuel",
+                    "Liquid in first stage and solid in second stage",
+                    "Solid in first stage and liquid in second stage"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "When The Indian Space Research Organisation (ISRO) was set up?",
+                "options": [
+                    "1962",
+                    "1969",
+                    "1972",
+                    "1952"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Where is the Headquarter of ISRO?",
+                "options": [
+                    "Chandipur",
+                    "Bengaluru",
+                    "Mahendragiri",
+                    "Chennai"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following is NOT true about Indian space research?",
+                "options": [
+                    "The first satellite launched in India was Aryabhatta.",
+                    "Great scientist Dr. Vikram Sarabhai is known as the father of Indian space research.",
+                    "ISRO was set up in 1962.",
+                    "ISRO reports to Department of Space, India"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "IRNSS is a ……………",
+                "options": [
+                    "Navigation satellite",
+                    "Space mission",
+                    "MARS mission",
+                    "Geo stationary satellite"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Who was the india’s first man/women in the space?",
+                "options": [
+                    "Rajesh Sharma",
+                    "Rakesh sharma",
+                    "Kalpana chawla",
+                    "Sunita williams"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Satish Dhawan Space Centre (SDSC), SHAR is situated at…….",
+                "options": [
+                    "Bangaluru",
+                    "Mahendragiri",
+                    "Ahmedabad",
+                    "Sriharikota"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "What was the Chandrayan I……..",
+                "options": [
+                    "An earth observation satellite",
+                    "Lunar Probe",
+                    "Navigation satellite",
+                    "Geo stationary satellite"
+                ],
+                "correctAnswer": 2
+            }
+        ],
+        [
+            {
+                "question": "What is the common name of ethanoic acid?",
+                "options": [
+                    "Acetic acid",
+                    "Formic acid",
+                    "Propionic acid",
+                    "Butanoic acid"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "What type of flame is produced when the oxygen supply is sufficient?",
+                "options": [
+                    "Yellow flame",
+                    "Blue flame",
+                    "Orange flame",
+                    "None of the above"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following is the chemical property of carbon compounds?",
+                "options": [
+                    "Combustion reactions",
+                    "Substitution reactions",
+                    "Addition reactions",
+                    "All of the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "The cooking gas (LPG) mainly consists of:",
+                "options": [
+                    "Butane",
+                    "Ethene",
+                    "Ethyne",
+                    "Propene"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "The reaction in which an unsaturated hydrocarbon combines with another substance to give a single product is called:",
+                "options": [
+                    "Addition reaction",
+                    "Combustion reaction",
+                    "Combination reaction",
+                    "Substitution reaction"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "What is the boiling point of ethanol?",
+                "options": [
+                    "100 degree C",
+                    "50 degree C",
+                    "88 degree C",
+                    "78 degree C"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of the following is used as a fuel in cars along with petrol?",
+                "options": [
+                    "Methane",
+                    "Ethane",
+                    "Butane",
+                    "Ethanol"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "What is formed when ethanol reacts with ethanoic acid on warming in the presence of a few drops of concentrated sulphuric acid?",
+                "options": [
+                    "Ester",
+                    "Ethene",
+                    "Sodium Ethoxide",
+                    "Ethane"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which of the following is a use of ethanol?",
+                "options": [
+                    "Manufacturing paints",
+                    "In cough syrups",
+                    "In alcoholic drinks",
+                    "All of the above"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "What is used as an antiseptic to sterilise wounds and syringes in hospitals?",
+                "options": [
+                    "Propanol",
+                    "Ethyl alcohol",
+                    "Butanol",
+                    "Methanol"
+                ],
+                "correctAnswer": 2
+            }
+        ],
+        [
+            {
+                "question": "Which plant hormone is responsible for saving the crops from falling.",
+                "options": [
+                    "Cytokinin",
+                    "Gybberellin",
+                    "Auxin",
+                    "Ethylene"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of the following hormone is found in gaseous form?",
+                "options": [
+                    "Florigens",
+                    "Abscisic Acid",
+                    "Ethylene",
+                    "Auxin"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Name the plant hormone which is responsible for the ripening of fruits?",
+                "options": [
+                    "Ethylene",
+                    "Auxin",
+                    "Traumatic",
+                    "Cytokinins"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Which plant hormone is helpful in making RNA and protein?",
+                "options": [
+                    "Gibberellins",
+                    "Auxin",
+                    "Cytokinins",
+                    "Ethylene"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of the following statement is incorrect?",
+                "options": [
+                    "Auxins are the most important plant hormone.",
+                    "Auxins are produced at the region of elongation.",
+                    "Indoleacetic Acid (IAA) is a principal auxin.",
+                    "Auxins are also important in regulating the fall of leaves and fruits."
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which plant hormone helps in breaking the dormancy of plant?",
+                "options": [
+                    "Auxin",
+                    "Gibberellin",
+                    "Cytokinin",
+                    "Ethylene"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which hormone is formed in leaves and helps in the blooming of the flowers?",
+                "options": [
+                    "Traumatic",
+                    "Auxin",
+                    "Florigens",
+                    "None of the above"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which plant hormone is formed in injured cells by which the injury of plant is healed?",
+                "options": [
+                    "Florigens",
+                    "Traumatic",
+                    "Abscisic Acid",
+                    "None of the above"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which of the following hormone help in the cell division and development in the presence of auxins?",
+                "options": [
+                    "Ethylene",
+                    "Auxins",
+                    "Florigens",
+                    "Cytokinins"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Name the plant hormone which increases the activity of cambium in the wooden plants?",
+                "options": [
+                    "Gibberellins",
+                    "Cytokinins",
+                    "Auxins",
+                    "Ethylene"
+                ],
+                "correctAnswer": 1
+            }
+        ]
+    ],
+    "english": [
+        [
+            {
+                "question": "This word, a synonym for graveyard, has its origins in the Latin word coemétérium and the Greek word koimétrion, meaning 'a sleeping place.'",
+                "options": [
+                    "cemetery",
+                    "sematary",
+                    "cemetary",
+                    "cematery"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "How do you spell the word which has various meanings including \"to oblige\" and \"to provide with a room\"?",
+                "options": [
+                    "accommodate",
+                    "accomodate",
+                    "acommodate",
+                    "acomodate"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "This word, which means \"grossly irreverent toward what is held to be sacred\", is often misspelled due to its association with a more common term.",
+                "options": [
+                    "sacrelegious",
+                    "sacriligious",
+                    "sacreligious",
+                    "sacrilegious"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "This word, meaning \"steady persistence in a course of action\" is often mispronounced, leading to incorrect spellings.",
+                "options": [
+                    "perseverance",
+                    "perseverence",
+                    "perserverance",
+                    "persaverance"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Defined as \"to cause confusion and shame to\" or \"make uncomfortably self-conscious.\"",
+                "options": [
+                    "embarass",
+                    "embbarass",
+                    "embarras",
+                    "embarrass"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Another commonly misspelled word due to variant pronunciations, this word means \"in reduced size or scale\".",
+                "options": [
+                    "minature",
+                    "minnature",
+                    "miniture",
+                    "miniature"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Meaning \"from time to time\" or \"now and then\", how do you spell this commonly misspelled word?",
+                "options": [
+                    "occassionally",
+                    "ocasionally",
+                    "occasionally",
+                    "ocassionally"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "One definition of this word is \"to place in a mental institution or hospital\" as in \"he was _____ to Bellevue due to severe mental illness\".",
+                "options": [
+                    "comited",
+                    "commited",
+                    "committed",
+                    "comitted"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Unless you've actually seen this name for the flower native to Mexico, Euphorbia pulcherrima, it can be very difficult to spell. The red variety is commonly seen during Christmas time.",
+                "options": [
+                    "pointsetta",
+                    "pointseta",
+                    "pointsettia",
+                    "poinsettia"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "\"I am pleased to make your _____.\" Please spell the word that fills in the blank and which means \"a person known to one, but usually not a close friend.\"",
+                "options": [
+                    "aquaintance",
+                    "acquaintance",
+                    "acquaintence",
+                    "acquaitance"
+                ],
+                "correctAnswer": 2
+            }
+        ],
+        [
+            {
+                "question": "Which is the correct spelling?",
+                "options": [
+                    "Exciteble",
+                    "Exitable",
+                    "Excitible",
+                    "Excitable"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which is the correct spelling?",
+                "options": [
+                    "Siezing",
+                    "Siezeing",
+                    "Seizeing",
+                    "Seizing"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which is the correct spelling?",
+                "options": [
+                    "Seperate",
+                    "Separate",
+                    "Sepperate",
+                    "Sepurate"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Which is the correct spelling?",
+                "options": [
+                    "Knowledgeable",
+                    "Knowlidgeabel",
+                    "Knowlegable",
+                    "Knowligeable"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "What is the proper (American) spelling of the four listed answers?",
+                "options": [
+                    "Foccussing",
+                    "Fokusing",
+                    "Focusing",
+                    "Foccusing"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which is the correct spelling?",
+                "options": [
+                    "Leasure",
+                    "Lessure",
+                    "Liesure",
+                    "Leisure"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which of these is spelled correctly?",
+                "options": [
+                    "Suxcesful",
+                    "Successfull",
+                    "Successful",
+                    "Sucessful"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Which of these is the correct spelling? (When you read it aloud it may sound different from the actual spelling.)",
+                "options": [
+                    "Plausable",
+                    "Plauassble",
+                    "Plauseble",
+                    "Plausible"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Which is the correct spelling?",
+                "options": [
+                    "Changeible",
+                    "Changible",
+                    "Changeable",
+                    "Changable"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "Don't be confused! Which is the correct spelling?",
+                "options": [
+                    "Journeies",
+                    "Journies",
+                    "Journeys",
+                    "Journays"
+                ],
+                "correctAnswer": 3
+            }
+        ],
+        [
+            {
+                "question": "This quiz is easy if ____ paying attention.",
+                "options": [
+                    "your",
+                    "yur'e",
+                    "yur",
+                    "you're"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "You eat ___ many hamburgers.",
+                "options": [
+                    "to",
+                    "tuu",
+                    "two",
+                    "too"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "I have ___ cookies.",
+                "options": [
+                    "four",
+                    "fore",
+                    "for",
+                    "fure"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Michael and Joan don't know how old ____ dog is.",
+                "options": [
+                    "they're",
+                    "thair",
+                    "their",
+                    "there"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "How is ____ project coming along?",
+                "options": [
+                    "youre",
+                    "your",
+                    "you're",
+                    "yer"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Are we going ___ the supermarket?",
+                "options": [
+                    "tutu",
+                    "too",
+                    "to",
+                    "two"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "I looked up when the golfer said '___'.",
+                "options": [
+                    "fore",
+                    "for",
+                    "four",
+                    "two"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "How are you ___ getting along?",
+                "options": [
+                    "too",
+                    "fore",
+                    "to",
+                    "two"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "I have ___ of pens.",
+                "options": [
+                    "alotta",
+                    "alot",
+                    "a lot",
+                    "allot"
+                ],
+                "correctAnswer": 3
+            },
+            {
+                "question": "No, it is not moving because it is _____.",
+                "options": [
+                    "statutory",
+                    "stationery",
+                    "stationary",
+                    "statunery"
+                ],
+                "correctAnswer": 3
+            }
+        ],
+        [
+            {
+                "question": "Do you ever succumb to the temptation to replace a plain word with something having a little more color? When you describe your \"plain cat\" as \"that remarkable feline\", in what activity are you engaging?",
+                "options": [
+                    "Consonance",
+                    "Personification",
+                    "Carping",
+                    "Kenning"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "If, when you... ah, speak in front of people... er, it comes out... um, like this, what sort of SPEAKING problem are you afflicted with?",
+                "options": [
+                    "Dysgraphia",
+                    "Embololalia",
+                    "Mogigraphia",
+                    "Cacographia"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "A newspaper hires you as their cruciverbalist. Which of the following will you be writing?",
+                "options": [
+                    "Editorials",
+                    "Sports stories",
+                    "Advertisements",
+                    "Crosswords"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "Tell me, my little apple dumpling, which of the following is a technical term for the way in which I just used \"apple dumpling\"?",
+                "options": [
+                    "Prevarication",
+                    "Dontopedalogy",
+                    "Echolalia",
+                    "Hypocorism"
+                ],
+                "correctAnswer": 4
+            },
+            {
+                "question": "If I obsessively make horrid puns, recount pointless stories and tell abysmal jokes, I may suffer from Witzelsucht, a disorder that can be caused by an underlying disorder of the frontal lobes.",
+                "options": [
+                    "True",
+                    "False",
+                    "",
+                    ""
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "Holy mind-boggling cow! I just inserted one expression right into the dead freaking center of another. In what practice have I engaged?",
+                "options": [
+                    "Tmesis",
+                    "Mendaciloquence",
+                    "Hapax legomenon",
+                    "Glossolalia"
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "In what manner could the title of this quiz \"Things To Do With Words\" be taken as an example of \"parisology\"?",
+                "options": [
+                    "It avoids the use of monosyllabic words.",
+                    "It is deliberately ambiguous.",
+                    "It employs the vernacular.",
+                    "It has a high Fog Index."
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "In writing a letter, where does one typically place the paraph?",
+                "options": [
+                    "At the end of one's signature.",
+                    "Along side the margin.",
+                    "Before each paragraph.",
+                    "In the postscript."
+                ],
+                "correctAnswer": 1
+            },
+            {
+                "question": "You have written a quiz on some of the technical points of linguistics. From whom are you likely to receive an accurate, argumentative correction notice?",
+                "options": [
+                    "A perpilolocutionist",
+                    "A logomachist",
+                    "An amanuensis",
+                    "A donzel"
+                ],
+                "correctAnswer": 2
+            },
+            {
+                "question": "Using a plethora of overblown, exaggerated, inflated and overstated adjectives characterizes which of the following?",
+                "options": [
+                    "Graphospasm",
+                    "Pleonasm",
+                    "Mumpsimus",
+                    "Monologophobia"
+                ],
+                "correctAnswer": 2
+            }
+        ]
+    ]
+}
