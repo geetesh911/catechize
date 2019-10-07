@@ -211,14 +211,14 @@ let sliderIndicatorIndex = 0;
 
         if (quesNo < data[category][quizNo - 1].length) {
             for (let i = 1; i <= 4; i++) {
-                rightAns.classList.remove("correct");
                 options.classList.remove("correct");
                 options.classList.remove("wrong");
             }
+            rightAns.classList.remove("correct");
             display(data[category][quizNo - 1][quesNo]);
 
         } else {
-            zero(options);
+            zero(options, rightAns);
         }
 
     }
@@ -251,11 +251,12 @@ let sliderIndicatorIndex = 0;
 
     }
 
-    function zero(options) {
+    function zero(options, rightAns) {
         for (let i = 1; i <= 4; i++) {
             options.classList.remove("correct");
             options.classList.remove("wrong");
         }
+        rightAns.classList.remove("correct");
         setTimeout(() => {
             $('#quizModal').modal('hide');
 
