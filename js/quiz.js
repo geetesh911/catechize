@@ -246,6 +246,7 @@ let sliderIndicatorIndex = 0;
                     options.disabled = true;
                 }
             });
+
         }
 
     }
