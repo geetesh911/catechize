@@ -21,7 +21,7 @@ section {
         margin-bottom: 0;
     }
 
-    @media screen and (max-width: 576px){
+    @media screen and (max-width: 992px){
         margin: -40px 0px 0 0px !important;
         .acc {
             margin-top: 0;
@@ -74,7 +74,7 @@ section {
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
-                @media screen and (max-width: 576px){
+                @media screen and (max-width: 992px){
                     width: 50px;
                 }
             }
@@ -82,7 +82,7 @@ section {
                 margin-bottom: 0;
             }
             .p-heading {
-                @media screen and (max-width: 576px){
+                @media screen and (max-width: 992px){
                     margin-left: -10px;
                 }
             }
@@ -128,7 +128,7 @@ section {
             &:focus {
                 color: #212529;
             }
-            @media screen and (max-width: 576px) {
+            @media screen and (max-width: 992px) {
                 height: 100%;
             }
             // &:hover {
@@ -153,7 +153,7 @@ section {
 
 .sections:first-of-type {
     margin: 90px 0px 50px 0px !important;
-    @media screen and (max-width: 576px){
+    @media screen and (max-width: 992px){
         margin: 90px 0px 80px 0px !important;
     }
 }
@@ -171,7 +171,7 @@ section {
                 color: $text-base-color;
                 background: rgba($color: #343a40, $alpha: 1);
             }
-            @media screen and (max-width: 576px) {
+            @media screen and (max-width: 992px) {
                 display: none;
             }
         }
@@ -187,7 +187,7 @@ section {
         .col-md-9 {
             flex: 0 0 90% !important;
             max-width: 90% !important;
-            @media screen and (max-width: 576px) {
+            @media screen and (max-width: 992px) {
                 flex: 0 0 80% !important;
                 max-width: 80% !important;
             }
@@ -201,13 +201,13 @@ section {
         }
         p {
 
-            @media screen and (max-width: 576px) {
+            @media screen and (max-width: 992px) {
                 flex: 0 0 20% !important;
                 max-width: 20% !important;
             }
         }
 
-        @media screen and (max-width: 576px) {
+        @media screen and (max-width: 992px) {
             margin-top: 1.2rem;
         }
     }
