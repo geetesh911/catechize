@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <link rel="icon" href="images/logo-icon-title.png" type="image/x-icon">
+
+    <!-- --------STYLESHEETS------- -->
+
+    <!-- MY_STYLESHEET -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- OTHER STYLESHEETS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Be+Vietnam:700&display=swap" rel="stylesheet">
+
+    <title>catechize-unlocking knowledge</title>
+</head>
+
+<body>
+
+
+
+    <!-- ---------------------------------NAVBAR-------------------------------- -->
+
+    <nav class="navbar navbar-expand-md text-white navbar-custom fixed-top" id="main-nav" data-spy="affix">
+        <div class="container-fluid">
+
+            <!-- Navnar Brand Area -->
+            <a href="#" class="navbar-brand">
+                <img src="/images/logo-nav.png" class="img-fluid mr-2" alt="" width="150px" height="100px">
+            </a>
+
+            <!-- Toggler Button -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#sdsaNav">
+                <span class="fas fa-bars fa-lg"></span>
+            </button>
+
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="sdsaNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item mr-3">
+                        <a href="#home" class="nav-link">
+                            <i class="fas fa-home d-inline d-md-block text-center"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a href="#about" class="nav-link" data-toggle="modal" data-target="#aboutModal">
+                            <i class="fas fa-info-circle d-inline d-md-block text-center"></i>
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a href="" class="nav-link" data-toggle="modal" data-target="#scoresModal">
+                            <i class="fab fa-stripe-s d-inline d-md-block text-center"></i>
+                            Scores
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Score Area -->
+                <div class="total-score-menu">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mr-3">
+                            <div class="d-flex">
+                                Score:&nbsp;&nbsp;
+                                <p id="total-score">0</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="sections">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <!-- carousel-indicators here -->
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <!-- carousel-items here -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- ---------------------------------SECTIONS-------------------------------- -->
+
+
+
+
+    <!-- -------------------------------------Quiz Modal---------------------------------- -->
+    <div class="modal fade" id="quizModal">
+        <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-uppercase display-4"></h3><button class="close"
+                        data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body px-3">
+                    <div class="container">
+                        <div class="row text-center">
+                            <div class="col-12 heading">
+                                <h1 class="display-3 text-uppercase ">Quiz</h1>
+                            </div>
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-12">
+                                <h5 class="question"></h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 options option-1"></div>
+                            <div class="col-lg-5 offset-lg-2 options option-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5 options option-3"></div>
+                            <div class="col-lg-5 offset-lg-2 options option-4"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <h3>Points: <p class="score d-inline"></p>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------------------------Scores Modal--------------------------------- -->
+    <div class="modal fade" id="scoresModal">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-uppercase mb-0 display-4">Scores</h1>
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body px-3">
+                    <div class="container scoresBody">
+                        <!-- scores here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <h5>Total-Score: <p class="score d-inline" id="modalTotalScore"></p>
+                    </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="aboutModal">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-uppercase mb-0 display-4">About</h1>
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body px-3">
+                    <div class="container">
+                        <p>
+                            Welcome to <span class="highlight">catechize</span>, your number one source for all subjects
+                            quizes. We're dedicated to giving you the very best of content, with a focus on regular
+                            updates, best questions and authentic answers.
+                        </p>
+
+                        <p>
+                            We hope you enjoy our quizes as much as we enjoy offering them to you. If you have any
+                            questions or comments, please don't hesitate to contact us.
+                        </p>
+                        <p class="mb-0">
+                            Sincerely,
+                        </p>
+                        <p>
+                            <span class="highlight">Geetesh Laddha</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer id="footer" class="text-white p-4 mt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    Copyright &copy; <span id="year"></span> catechize
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ---------SCRIPTS-------- -->
+
+
+
+    <!-- OTHER SCRIPTS -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <!-- MY SCRIPT -->
+    <script src="/js/quiz.js"></script>
+    <script src="/js/style.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        }); 
+    </script>
+    <script>
+
+    </script>
+    <script>
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+
+</html>
