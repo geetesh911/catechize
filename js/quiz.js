@@ -12,10 +12,17 @@ let sliderIndicatorIndex = 0;
     if (data.length === 0) {
         let ques = await fetch(url);
         data = await ques.json();
-        for (keys in data) {
-            for (let i = 1; i <= data[keys].length; i++) {
-                score.push(0);
+        if (JSON.parse(localStorage.getItem("score")) === null) {
+            localStorage.setItem("score", JSON.stringify(score));
+        }
+        if (JSON.parse(localStorage.getItem("score")).length === 0) {
+            for (keys in data) {
+                for (let i = 1; i <= data[keys].length; i++) {
+                    score.push(0);
+                }
             }
+        } else {
+            score = JSON.parse(localStorage.getItem("score"));
         }
     }
 
@@ -78,10 +85,12 @@ let sliderIndicatorIndex = 0;
             let newHtml;
             let cardNo;
             cardNo = card[categories].quizCards[i - 1].cardNo;
-            let html = '<tr><td><div class="d-inline">Quiz-%quizNo%:</div></td><td><div class="d-inline scoresModalScore-%category%">0/10</div></div></td></tr>';
+            let html = '<tr><td><div class="d-inline">Quiz-%quizNo%:</div></td><td><div class="d-inline modalScore scoresModalScore-%category%" data-quiz="%scoreQuizNo%" data-category="%scoreCategory%">0/10</div></div></td></tr>';
 
             newHtml = html.replace('%quizNo%', i);
-            newHtml = newHtml.replace('%category%', cardNo);
+            newHtml = newHtml.replace('%category%', cardNo)
+                .replace("%scoreQuizNo%", i)
+                .replace("%scoreCategory%", categories);
 
             document.querySelector(`#${categories}scoresSection`).insertAdjacentHTML('beforebegin', newHtml);
         }
@@ -93,7 +102,7 @@ let sliderIndicatorIndex = 0;
             let random = Math.floor(Math.random() * 1000);
             let cardNo;
             cardNo = card[categories].quizCards[i - 1].cardNo;
-            let html = '<div class="item"><div class="contain d-flex"><div class="card flex-fill" id="quiz-card-%modalID%"><img src="https://source.unsplash.com/collection/8738952/800x%imgID%" alt="" class="img-fluid card-img-top"><div class="card-img-overlay p-0"><div class="card-body rounded pb-0"><div class="card-title mb-0"><h3>Quiz-%quizNo%</h3></div><div class="card-text"><div class="sm-card-list"><li class="text-left"><p class="d-inline p-heading font-weight-bold">Topic:&nbsp;</p><p class="d-inline overflow text-capitalize text-right" id="topic-%topicID%" data-toggle="popover" data-placement="top" title="Tooltip"></p></li><li><p class="d-inline p-heading font-weight-bold">Score:&nbsp;</p><p class="d-inline text-right" id="score-%scoreID%">0/10</p></li><li><p class="d-inline p-heading font-weight-bold">Questions:&nbsp;</p><p class="d-inline text-right" id="questions-%questionID%"></p></li></div><div class="sm-card-button"><button class="btn btn-warning my-3 form-control card-button" data-quiz="%quizNumber%" data-category="%category%">Start</button></div></div></div></div></div></div></div>';
+            let html = '<div class="item"><div class="contain d-flex"><div class="card flex-fill" id="quiz-card-%modalID%"><img src="https://source.unsplash.com/collection/8738952/800x%imgID%" alt="" class="img-fluid card-img-top"><div class="card-img-overlay p-0"><div class="card-body rounded pb-0"><div class="card-title mb-0"><h3>Quiz-%quizNo%</h3></div><div class="card-text"><div class="sm-card-list"><li class="text-left"><p class="d-inline p-heading font-weight-bold">Topic:&nbsp;</p><p class="d-inline overflow text-capitalize text-right" id="topic-%topicID%" data-toggle="popover" data-placement="top" title="Tooltip"></p></li><li><p class="d-inline p-heading font-weight-bold">Score:&nbsp;</p><p class="d-inline text-right cardScore" id="score-%scoreID%" data-quiz="%scoreQuizNo%" data-category="%scoreCategory%">0/10</p></li><li><p class="d-inline p-heading font-weight-bold">Questions:&nbsp;</p><p class="d-inline text-right" id="questions-%questionID%"></p></li></div><div class="sm-card-button"><button class="btn btn-warning my-3 form-control card-button" data-quiz="%quizNumber%" data-category="%category%">Start</button></div></div></div></div></div></div></div>';
 
             newHtml = html.replace('%targetID%', i);
             newHtml = newHtml.replace('%modalID%', i)
@@ -103,6 +112,8 @@ let sliderIndicatorIndex = 0;
                 .replace('%topicID%', cardNo)
                 .replace('%scoreID%', cardNo)
                 .replace('%questionID%', cardNo)
+                .replace('%scoreCategory%', categories)
+                .replace("%scoreQuizNo%", i)
                 .replace('%category%', categories);
 
             document.querySelector(`#${categories} .items`).insertAdjacentHTML("beforeend", newHtml);
@@ -151,6 +162,7 @@ let sliderIndicatorIndex = 0;
             });
         })
 
+
         totalSc();
         correctAns();
 
@@ -166,6 +178,28 @@ let sliderIndicatorIndex = 0;
             });
         });
 
+        function initialScores(element, index) {
+            let scoreCategory = element.getAttribute('data-category');
+            let scoreQuizNo = element.getAttribute('data-quiz');
+            if (JSON.parse(localStorage.getItem("score")).length !== 0) {
+                element.innerHTML = `${JSON.parse(localStorage.getItem("score"))[index]}/${data[scoreCategory][scoreQuizNo - 1].length}`;
+            } else {
+                element.innerHTML = `0/${data[scoreCategory][scoreQuizNo - 1].length}`;
+            }
+        }
+
+        document.querySelectorAll('.cardScore').forEach(function (element, index) {
+            initialScores(element, index);
+        });
+
+        document.querySelectorAll('.modalScore').forEach(function (element, index) {
+            initialScores(element, index);
+        });
+
+        document.getElementById('reset').addEventListener('click', function () {
+            window.localStorage.removeItem('score');
+            document.location.reload();
+        });
     });
 
     function modal() {
@@ -176,6 +210,7 @@ let sliderIndicatorIndex = 0;
 
     function quiz() {
         score[scoreIndex] = 0;
+        localStorage.setItem("score", JSON.stringify(score));
         display(data[category][quizNo - 1][quesNo]);
     }
 
@@ -190,12 +225,12 @@ let sliderIndicatorIndex = 0;
     }
 
     function scores() {
-        document.querySelector(`#score-${category}${quizNo}`).innerHTML = `${score[scoreIndex]
-            }/${data[category][quizNo - 1].length}`;
-        document.querySelector(`.scoresModalScore-${category}${quizNo}`).innerHTML = `${score[scoreIndex]
+        document.querySelector(`#score-${category}${quizNo}`).innerHTML = `${JSON.parse(localStorage.getItem("score"))[scoreIndex]
+            } /${data[category][quizNo - 1].length}`;
+        document.querySelector(`.scoresModalScore-${category}${quizNo}`).innerHTML = `${JSON.parse(localStorage.getItem("score"))[scoreIndex]
             }/${data[category][quizNo - 1].length}`;
 
-        document.querySelector('.score').innerHTML = `${score[scoreIndex]}`;
+        document.querySelector('.score').innerHTML = `${JSON.parse(localStorage.getItem("score"))[scoreIndex]}`;
 
         totalSc();
     }
@@ -213,6 +248,9 @@ let sliderIndicatorIndex = 0;
             for (let i = 1; i <= 4; i++) {
                 options.classList.remove("correct");
                 options.classList.remove("wrong");
+                document.querySelectorAll('.options').forEach((element) => {
+                    element.style.pointerEvents = "auto";
+                });
             }
             rightAns.classList.remove("correct");
             display(data[category][quizNo - 1][quesNo]);
@@ -230,9 +268,17 @@ let sliderIndicatorIndex = 0;
             options.addEventListener('click', () => {
                 let rightAns = document.querySelector(`.option-${data[category][quizNo - 1][quesNo].correctAnswer}`);
                 if (i === data[category][quizNo - 1][quesNo].correctAnswer) {
+                    document.querySelectorAll('.options').forEach((element) => {
+                        element.style.pointerEvents = "none";
+                    });
                     options.classList.add("correct");
-                    score[scoreIndex]++;
+                    ++score[scoreIndex];
+                    localStorage.setItem("score", JSON.stringify(score));
+
                 } else {
+                    document.querySelectorAll('.options').forEach((element) => {
+                        element.style.pointerEvents = "none";
+                    });
                     rightAns.classList.add("correct");
                     options.classList.add("wrong");
                 }
